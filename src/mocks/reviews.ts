@@ -1,0 +1,2 @@
+import {Review} from '../types/review';
+export const reviews: Review[] = [{id: '1', date: '2026-10-01T12:00:00Z', user: {name: 'Max', avatarUrl: '/img/avatar-max.jpg', isPro: false}, comment: 'A quiet cozy and picturesque place with a great view. Close to everything and easy to get around.', rating: 4}, {id: '2', date: '2026-10-10T12:00:00Z', user: {name: 'Angelina', avatarUrl: '/img/avatar-angelina.jpg', isPro: true}, comment: 'The apartment was comfortable and clean. We especially enjoyed walking along the canals nearby.', rating: 5}];
